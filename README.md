@@ -5,7 +5,9 @@ ROV Fisheye Stereo Depth Mapping Pipeline
 A robust OpenCV stereo vision pipeline for dual-fisheye underwater camera systems, handling calibration, distortion correction, stereo rectification, and real-time metric depth estimation.
 
 Pipeline Overview
-[Raw Images] ➔ [Independent Fisheye Calib] ➔ [Scanline Rectification] ➔ [StereoSGBM Matching] ➔ [3D Depth (Meters)]
+
+```[Raw Images] ➔ [Independent Fisheye Calib] ➔ [Scanline Rectification] ➔ [StereoSGBM Matching] ➔ [3D Depth (Meters)]```
+
 
 How It Works
 1. Calibration & Corner Vector Alignment
